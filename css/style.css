@@ -20,7 +20,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     opacity: 0;
     transform: translateX(-10rem); }
   80% {
-    transform: translateX(1rem); }
+    transform: translateX(1.5rem); }
   100% {
     opacity: 1;
     transform: translate(0); } }
@@ -70,7 +70,7 @@ body {
       padding: 0; } }
 
 body {
-  font-family: "Lato",sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
@@ -102,7 +102,7 @@ body {
     margin-bottom: 5rem; }
     @media (max-width: 37.5em) {
       .heading-primary--sub {
-        letter-spacing: .5rem; } }
+        letter-spacing: 0.5rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -112,8 +112,8 @@ body {
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: .2rem;
-  transition: all .2s; }
+  letter-spacing: 0.2rem;
+  transition: all 0.2s; }
   @media (max-width: 56.25em) {
     .heading-secondary {
       font-size: 3rem; } }
@@ -276,11 +276,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../../images/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../images/nat-5.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../../images/nat-6.jpg); }
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../images/nat-6.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../../images/nat-7.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../images/nat-7.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
